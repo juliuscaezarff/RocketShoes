@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container {
+ 
+  display: flex;
+  height: 60rem;
+}
+
+/*===================== HEADER LEFT ==================== */
+
+nav {
+  text-align: center;
+  
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  position: absolute;
+  width: 97px;
+  height: 22px;
+  left: 240px;
+  top: 42px;
+  gap: 7rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  
+}
+
+.nav-list a{
+  text-decoration: none;
+  color: #000000;
+}
+
+/*===================== PARTE ESQUERDA DO SITE ==================== */
+.coluna-esquerda {
+  flex-basis: 62%;
+  padding: 1rem;
+  background: #e5e5e5;
+  
+}
+
+
+.price h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  position: absolute;
+  width: 357px;
+  height: 272px;
+  left: 111px;
+  top: 190px;
+}
+
+.price span {
+  position: absolute;
+  width: 342px;
+  height: 57px;
+  left: 111px;
+  top: 483px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9c9696;
+}
+
+.price h2 {
+  position: absolute;
+  width: 220px;
+  height: 42px;
+  left: 111px;
+  top: 561px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.price button {
+  position: absolute;
+  width: 274px;
+  height: 90px;
+  left: 111px;
+  top: 633px;
+  background: #ff0000;
+  
+}
+
+button {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 186px;
+  top: 666px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+button:hover {
+ transform: translateY(-5px);
+}
+
+/*===================== PARTE DIREITA DO SITE ==================== */
+
+.coluna-direita {
+width: 100%;
+
+left: 840px;
+background: #C4C4C4;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.img-principal {
+  padding: 7rem;
+
+}
+
+.img-3 {
+display: flex;
+justify-content: center;
+gap: 3.7rem;
+
+
+}
+
+.img {
+  position: relative;
+  cursor: pointer;
+}
+
+.img:hover::after {
+  content: '';
+  background: red;
+  width: 100%;
+  height: 4px;
+  left: 0px;
+  bottom: 4px;
+  position: absolute;
+}
+/*===================== HEADER RIGHT ==================== */
+
+.nav-list2 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  position: absolute;
+  width: 97px;
+  height: 22px;
+  left: 50rem;
+  top: 42px;
+  gap: 7rem;
+  color: #000000;
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+.nav-list2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+input {
+  width: 220px;
+height: 45px;
+left: 1046px;
+top: 42px;
+
+}
+
+#search {
+  background: #ffffff;
+  height: 30px;
+  height: 45px;
+  font-weight: 700;
+}
+
+label {
+  background: #ffffff;
+
+}
+
+
+/*===================== FOOTER ==================== */
+
+footer {
+  background: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 166.33px;
+}
+
+.video-sapato {
+  width: 250px;
+height: 166.33px;
+}
+
+ .explore {
+  background-color: #000000;
+  width: 480px;
+  height: 166px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C4C4C4;
+  cursor: pointer;
+}
+
+.flecha {
+  padding: 1rem;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
